@@ -1,0 +1,45 @@
+.Pcards{
+    display: flex;
+    gap: 1.2rem;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    width: 60vw;
+    /* background-color: red; */
+}
+
+.cardImg{
+    width: 16rem;
+    height: 9rem;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 679px) {
+    .Pcards {
+        margin-left: 1rem;
+        overflow-x: scroll;
+        width: 96%;
+    }
+    .Pcards::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media (min-width:680px) and (max-width: 991px) {
+   
+    .cardImg{
+        width: 14rem;
+    }
+
+    .Pcards {
+        margin-left: 1rem;
+        overflow-x: scroll;
+        width: 96%;
+    }
+    .Pcards::-webkit-scrollbar{
+        display: none;
+    }
+}
+

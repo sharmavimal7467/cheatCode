@@ -1,0 +1,147 @@
+
+.mainTopicDiv{
+    /* margin-left: 7.7rem; */
+    margin-top: 37rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 60vw; */
+    gap: 15px;
+}
+
+.mainTopicDivTrue{
+    /* margin-left: 7.7rem; */
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 60vw; */
+    gap: 15px;
+}
+
+.topicCollect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    width: fit-content;
+    /* background-color: red; */
+    /* position: relative; */
+}
+
+.topicCollect p{
+    margin-bottom: 0rem;
+}
+/* .topicCollect:hover{
+    color: blue;
+    cursor: pointer;
+} */
+
+/* .topicCollect p:hover,
+.topicCollect p.collect:hover {
+  color: blue;
+  cursor: pointer;
+} */
+
+.topicCollect:hover p {
+    color: blue;
+    cursor: pointer;
+    /* background-color: rgb(201, 218, 248); */
+  }
+
+  .topicCollect:hover .collect {
+    background-color: lightblue; /* Background color change for .collect */
+  }
+  
+
+
+.collect{
+    background-color: lightgray;
+    border-radius: 50px;
+    padding: 0px 10px;
+    color: #85858A;
+    width: fit-content;
+}
+
+/* .collect:hover{
+    color: blue;
+} */
+
+.down{
+    color: #85858A;
+    /* background-color: blue; */
+}
+
+.downarrow{
+    color: #85858A;
+    position: absolute;
+    left: 2rem;
+    top: 1px;
+}
+
+.outer{
+    display: flex;
+    align-items: center;
+    /* height: 50px; */
+    width: 60vw;
+    /* background-color: red; */
+    margin-left: 7.7rem
+}
+
+.expandOuter{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 60vw;
+    /* background-color: red; */
+    margin-left: 7.7rem;
+    overflow-y: hidden;
+}
+
+.expand{
+    color: #85858A;
+    /* background-color: blue; */
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    /* margin-top: 37rem; */
+}
+
+.expandNone{
+    display: none;
+}
+
+
+
+.expand:hover{
+    cursor: pointer;
+}
+
+.Collapse{
+    color: #85858A;   
+    margin-left: 28em;
+}
+
+.Collapse:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 679px) {
+    .expandOuter {
+        width: 96%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .mainTopicDiv {
+        margin-top: 54rem;
+    }
+    
+}
+
+@media (min-width:680px) and (max-width: 991px) {
+   
+    .outer {
+        width: 73%;
+        margin-left: 1em;
+    }
+}

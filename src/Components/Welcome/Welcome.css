@@ -1,0 +1,25 @@
+.customWidth{
+    width: 70vw;
+    /* background-color: red; */
+    margin-inline: auto;
+    margin-top: 60px;
+}
+.welcome{
+    font-weight: 500;
+    color: #C4C4C4;
+}
+
+
+.cheatCode{
+    color: #585858;
+}
+
+.icons{
+    width: 7vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    color: #AFAFAF;
+}

@@ -1,0 +1,178 @@
+.slider-container{
+    /* width: 80vw; */
+    /* margin-inline: auto; */
+    margin-left: 200px;
+    margin-top: 100px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 20px; */
+    /* overflow-x: scroll; */
+}
+/* .cardupper{
+    margin-left: 20px;
+} */
+
+.cards{
+    width: 280px;
+    position: relative;
+    /* border: 1px solid black; */
+    box-shadow: inset 0 4px 7px 1px #ffffff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cards:hover{
+    box-shadow: 0px 0px 25px grey;
+    cursor: pointer;
+}
+
+
+.cardImg{
+    width: 280px;
+    height: 200px;
+    
+}
+
+.cardData{
+    height: 84px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 190px;
+}
+
+.description{
+    position: absolute;
+    top: 15px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 16px;
+    opacity: 0.8;
+    left: 10px;
+    }
+
+    .title{
+        position: absolute;
+    top: 30px;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        line-height: 1.2;
+        margin-top: 7px;
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+        left: 10px;
+        width: 211px;
+    }
+
+    .chapters , .items{
+        color: grey;
+    }
+
+    .percentage{
+        position: absolute;
+        top: 248px;
+        left: 213px;
+        color: grey;
+    }
+
+    .circleMain{
+        position: absolute;
+        top: 165px;
+        left: 190px;
+    }
+
+
+   .circle{
+    width: 70px;
+    height: 70px;
+    border:5px solid lightgrey;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+   }
+
+   .circle:hover{
+    box-shadow: 0px 0px 15px grey;
+    cursor: pointer;
+}
+
+   .playIcon{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    left: 24px;
+   }
+
+   .playIcon:hover{
+    color: green;
+   }
+
+   .title2{
+    position: absolute;
+    top: 30px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    line-height: 1.2;
+    margin-top: 7px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    left: 10px;
+    width: 250px;
+}
+
+.cardImg1{
+    width: 280px;
+    height: 200px;
+    background-color: #118AEF;
+}
+
+.playIcon1{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    left: 24px;
+   }
+
+   .playIcon1:hover{
+    color: #FEA116;
+   }
+
+   .premium {
+    background: #fea116;
+    color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 0px 6px;
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.infoTable{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+
+.headlineText{
+    color: #585858;
+}
+
+.customBtn{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #2194FF;
+    border-radius: 50px;
+    padding: 2px 15px 3px 15px;  
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+

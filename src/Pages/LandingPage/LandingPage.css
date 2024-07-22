@@ -1,0 +1,10 @@
+.heroComp{
+    position: relative !important;
+}
+
+.ipadComp{
+    position: absolute !important;
+    top: 200px !important;
+    background-color: red !important;
+}
+

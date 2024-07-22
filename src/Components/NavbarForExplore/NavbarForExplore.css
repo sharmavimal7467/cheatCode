@@ -1,0 +1,43 @@
+.navBorder{
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.contWidth{
+    width: 85vw;
+}
+
+.logo{
+    width: 3vw;
+    height: 3vw;
+}
+
+/* NavDropdown {
+    color: #fea116 !important;
+} */
+
+.cstBtn{
+    background-color: #FFF4E3;
+    color: #fea116;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.cstBtn:hover{
+    background-color: #f8d8a8;
+    color: #fea116;
+}
+
+@media (max-width: 679px) {
+    .container, .container-sm {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width:680px) and (max-width: 991px) {
+   
+    .container, .container-sm {
+        max-width: 100%;
+        width: 100%;
+    }
+}

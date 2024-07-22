@@ -1,0 +1,40 @@
+
+/* .root{
+    background-image: url('https://media.istockphoto.com/id/1047259374/photo/programming-source-code-abstract-background.jpg?s=612x612&w=0&k=20&c=07DAFiujCb58Zgu5ZArLprHiSKew5pCGqbTnop9GclA=');
+} */
+.image-container{
+    width: 50px;
+    height: 50px;
+}
+
+.signInForm{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    width: 27vw;
+}
+
+.signInPage{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    margin-top: 100px;
+    border: 1px solid black;
+    width: 30%;
+    background: linear-gradient(90deg, rgba(231,56,12,1) 0%, rgba(34,217,24,1) 35%, rgba(0,212,255,1) 100%);
+    height: 70vh;
+    margin-inline: auto;
+    box-shadow: 8px 8px 5px #808080;
+    /* background-image: url('https://media.istockphoto.com/id/1047259374/photo/programming-source-code-abstract-background.jpg?s=612x612&w=0&k=20&c=07DAFiujCb58Zgu5ZArLprHiSKew5pCGqbTnop9GclA='); */
+}
+
+.SignInBtn{
+    margin-top: 20px;
+}
+
+.passwordInput{
+    margin-top: 20px;
+}
+
+/* #00d4ff */
+
