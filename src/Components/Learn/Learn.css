@@ -176,3 +176,24 @@
 }
 
 
+@media (max-width: 679px) {
+    .slider-container {
+        margin-left: 1em;
+    }
+
+    .infoTable {
+        width: 92vw;
+    }
+}
+
+@media (min-width:680px) and (max-width: 991px) {
+
+    .slider-container {
+        margin-left: 1em;
+    }
+
+    .infoTable {
+        width: 92vw;
+    }
+}
+

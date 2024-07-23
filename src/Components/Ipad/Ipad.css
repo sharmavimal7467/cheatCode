@@ -45,6 +45,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    position: absolute;
+    top: 150px;
+    left: 164px;
 }
 
 .intro-chapter-base .container .inner {
@@ -477,4 +480,36 @@ ipad-base .ipad .min-page .side-bar {
     .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
         float: left;
     }
+}
+
+
+@media (max-width: 679px) {
+    .page {
+        top: 50px;
+        left: 90px;
+    }
+
+    .row {
+        position: relative;
+    }
+
+    .intro-title {
+        position: absolute;
+        top: 20rem;
+    }
+}
+
+@media (min-width:680px) and (max-width: 991px) {
+
+    .page {
+        left: 52px;
+    }
+
+    .row {
+        flex-wrap: nowrap;
+        gap: 68px;
+    }
+    
+    
+
 }

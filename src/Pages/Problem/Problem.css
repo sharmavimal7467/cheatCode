@@ -1,17 +1,4 @@
 .Problem{
     display: flex;
-}
-
-@media (max-width: 679px) {
-   
-    .Problem{
-        flex-direction: column;
-    }
-}
-
-@media (min-width:680px) and (max-width: 991px) {
-   
-    /* .Problem{
-        flex-direction: column;
-    } */
+    gap: 30px;
 }

@@ -18,7 +18,7 @@
     display: grid;
     place-items: center;
     height: 100%;
-    margin-top: 100px;
+    margin-top: 45px;
     border: 1px solid black;
     width: 30%;
     background: linear-gradient(90deg, rgba(231,56,12,1) 0%, rgba(34,217,24,1) 35%, rgba(0,212,255,1) 100%);

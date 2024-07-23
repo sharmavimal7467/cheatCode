@@ -6,7 +6,6 @@ import Ipad from './Components/Ipad/Ipad';
 import Signin from './Components/SignIn/Signin';
 import Account from './Components/Account/Account';
 import Logout from './Components/Logout/Logout';
-import LandingPage from './Pages/LandingPage/LandingPage';
 import NavbarForExplore from './Components/NavbarForExplore/NavbarForExplore';
 import Welcome from './Components/Welcome/Welcome';
 import Content from './Components/Content/Content';
@@ -16,28 +15,30 @@ import Pcard from './Components/PCard/Pcard';
 import Study from './Components/Study/Study';
 import Topic from './Components/Topic/Topic';
 import SideComponent from './Components/SideComponent/SideComponent';
+import Explore from './Pages/Explore/Explore';
 import Problem from './Pages/Problem/Problem';
+import { Route, Routes } from 'react-router-dom';
 
 const App = () =>{
   return(
     <div>
-      {/* <Navbar/> */}
-      {/* <Hero/> */}
-      {/* <Ipad/> */}
-      {/* <Signin/>
-      <Account/>
-      <Logout/> */}
-      {/* <LandingPage/> */}
-      <NavbarForExplore/>
-       {/* <Welcome/>
-      <Content/>
-      <Interview/>
-      <Learn/> */}
-      {/* <Pcard/>
-      <Study/>
-      <Topic/>
-      <SideComponent/> */}
-      <Problem/>
+      
+      
+      <Routes>
+        <Route path='/' element={<Hero/>}/>
+        <Route path="/explore" element={<Explore/>} />
+        <Route path="/problem" element={<Problem/>} />
+        <Route path="/signin" element={<Signin/>} />
+        <Route path="/account" element={<Account/>} />
+      </Routes>
+      
+      
+
+
+
+      
+      
+      {/* <Logout/> */}
     </div>
   )
 }

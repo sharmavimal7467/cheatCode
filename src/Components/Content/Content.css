@@ -176,3 +176,8 @@
 }
 
 
+@media (max-width: 679px) {
+    .slider-container {
+        margin-left: 1em;
+    }
+}

@@ -92,7 +92,7 @@
     height: 3rem;
     width: 60vw;
     /* background-color: red; */
-    margin-left: 7.7rem;
+    margin-left: 5rem;
     overflow-y: hidden;
 }
 
@@ -141,7 +141,38 @@
 @media (min-width:680px) and (max-width: 991px) {
    
     .outer {
-        width: 73%;
+        width: 96%;
+        /* background-color: rebeccapurple; */
+        margin-left: 1em;
+    }
+
+    .Collapse {
         margin-left: 1em;
     }
 }
+
+@media(min-width: 992px) and (max-width: 1115px){
+
+
+    .outer {
+        margin-top: 1em;
+        /* background-color: red; */
+        margin-left: 1rem;
+        width: 63vw;
+    }
+
+    .expandOuter {
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .mainTopicDiv {
+        margin-top: 46rem;
+    }
+
+    .Collapse {
+        margin-left: 6em;
+    }
+
+}
+

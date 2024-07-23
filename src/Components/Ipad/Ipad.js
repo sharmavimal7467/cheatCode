@@ -3,13 +3,9 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Ipad = () =>{
     return(
-        <div>
+    
 
-        {/* <div className="intro-chapter-base ipadOption">
-            <div className="container">
-                
-            </div>
-        </div> */}
+        
 
         <div className="page">
         <div className="inner row">
@@ -107,13 +103,13 @@ const Ipad = () =>{
                             <div className="content text-center">
                                 <h1 class="text-white">A New Way to Learn</h1>
                                 <p class="text-secondary fw-bold">LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.</p>
-                                <a className="btnRound" href="/">Create Account <IoIosArrowForward /></a>
+                                <a className="btnRound" href="/account">Create Account <IoIosArrowForward /></a>
                             </div>
                         </div>
                     </div>
         </div>
 
-        </div>
+    
     )
 }
 

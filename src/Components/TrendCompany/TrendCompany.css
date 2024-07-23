@@ -139,7 +139,7 @@ overflow-y: hidden;
    
     .outerTrend {
         width: 99%;
-        margin-top: 1rem;
+        margin-top: 5rem;
         background-color: #fff !important;
     }
 
@@ -169,4 +169,18 @@ overflow-y: hidden;
         /* background-color: red; */
     }
 }
+
+@media(min-width: 992px) and (max-width: 1115px){
+
+    .setCards {
+        height: 40vw;
+    }
+
+
+}
+
+
+
+
+
 

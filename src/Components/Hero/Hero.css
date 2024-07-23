@@ -82,6 +82,74 @@
 
 .ipadComp{
     position: absolute !important;
-    top: 200px !important;
-    /* left: 0px !important; */
+    top: 150px !important;
+    left: 164px !important;
 }
+
+.imageDiv{
+    position: absolute ;
+    top: 564px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.clapEmoji{
+    width: 20em;
+    height: 20em;
+}
+
+.buddy{
+    font-size: 64px;
+    width: 10em;
+    /* background-color: red; */
+}
+
+.buddy2{
+    font-size: 64px;
+    width: 12em;
+    /* background-color: red; */
+}
+
+@media (max-width: 679px) {
+    .imageDiv {
+        top: 691px;
+    }
+
+    .clapEmoji {
+        width: 10em;
+        height: 10em;
+    }
+    
+    .buddy {
+        font-size: 25px;
+    }
+
+    .buddy2 {
+        font-size: 28px;
+    }
+    
+}
+
+@media (min-width:680px) and (max-width: 991px) {
+
+
+    .clapEmoji {
+        width: 15em;
+        height: 15em;
+    }
+
+    .imageDiv {
+        top: 622px;
+    }
+
+    .buddy {
+        font-size: 40px;
+    }
+
+    .buddy2 {
+        font-size: 58px;
+    }
+    
+}
+

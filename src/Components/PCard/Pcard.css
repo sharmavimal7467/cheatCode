@@ -3,13 +3,13 @@
     gap: 1.2rem;
     /* flex-wrap: wrap; */
     align-items: center;
-    margin-left: 8rem;
+    margin-left: 5rem;
     margin-top: 5rem;
     width: 60vw;
     /* background-color: red; */
 }
 
-.cardImg{
+.pCardImg{
     width: 16rem;
     height: 9rem;
     border-radius: 5px;
@@ -29,7 +29,7 @@
 
 @media (min-width:680px) and (max-width: 991px) {
    
-    .cardImg{
+    .pCardImg{
         width: 14rem;
     }
 
@@ -42,4 +42,17 @@
         display: none;
     }
 }
+
+@media(min-width: 992px) and (max-width: 1115px){
+
+    .Pcards {
+        margin-left: 1rem;
+        width: 63vw;
+        overflow-x: scroll;
+    }
+
+
+}
+
+
 

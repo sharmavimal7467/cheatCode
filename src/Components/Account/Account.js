@@ -1,8 +1,5 @@
 import { useState } from 'react';
 import './Account.css'
-import {createUserWithEmailAndPassword } from "firebase/auth"
-import { auth , provider } from '../../firebase';
-import {signInWithPopup} from "firebase/auth"
 
 
 const Account = () =>{

@@ -32,6 +32,13 @@
         max-width: 100%;
         width: 100%;
     }
+
+    .cstBtn {
+        margin-left: 0px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+
 }
 
 @media (min-width:680px) and (max-width: 991px) {
@@ -40,4 +47,19 @@
         max-width: 100%;
         width: 100%;
     }
+
+    .cstBtn {
+        margin-left: 0px;
+        width: fit-content;
+        padding: 5px 10px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1115px){
+
+    .contWidth {
+        min-width: 98vw;
+    }
+
+
 }

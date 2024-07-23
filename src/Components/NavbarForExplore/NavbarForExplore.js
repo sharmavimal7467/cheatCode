@@ -15,8 +15,8 @@ const NavbarForExplore = () =>{
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href="#Problem">Explore</Nav.Link>
-            <Nav.Link href="#Problem">Problem</Nav.Link>
+          <Nav.Link href="/explore">Explore</Nav.Link>
+            <Nav.Link href="/problem">Problem</Nav.Link>
             <Nav.Link href="#Content">Content</Nav.Link>
             <Nav.Link href="#Discuss">Discuss</Nav.Link>
             <NavDropdown title="Interview" id="collapsible-nav-dropdown">
